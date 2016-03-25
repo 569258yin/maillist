@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1" >
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="@string/showperson"
+            android:textColor="#ff44f3ff"
+            android:textSize="18sp" />
+    </TableRow>
+
+    <View
+        android:layout_height="3dp"
+        android:background="#50222222" />
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        
+        android:layout_margin="5dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/name"
+            android:textSize="16sp"
+            android:textColor="#ffffaaaf" />
+
+        <TextView
+            android:id="@+id/show_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <View
+        android:layout_height="1dp"
+        android:background="#50222222" />
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp" >
+
+        <TextView
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/phone"
+            android:textColor="#ffffaaaf" />
+
+        <TextView
+            android:id="@+id/show_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <View
+        android:layout_height="1dp"
+        android:background="#50222222" />
+
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp" >
+
+        <TextView
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/call"
+            android:textColor="#ffffaaaf" />
+
+        <TextView
+            android:id="@+id/show_call"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <View
+        android:layout_height="1dp"
+        android:background="#50222222" />
+
+    <TableRow
+        android:id="@+id/tableRow5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp" >
+
+        <TextView
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/address"
+            android:textColor="#ffffaaaf" />
+
+        <TextView
+            android:id="@+id/show_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <View
+        android:layout_height="1dp"
+        android:background="#50222222" />
+
+    <TableRow
+        android:id="@+id/tableRow6"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp" >
+
+        <TextView
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/email"
+            android:textColor="#ffffaaaf" />
+
+        <TextView
+            android:id="@+id/show_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+</TableLayout>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent" >
+
+    <TableRow
+        android:layout_margin="5dp"
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="@string/name" />
+
+        <EditText
+            android:id="@+id/et_Name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+
+    </TableRow>
+    <TableRow
+        android:layout_margin="5dp"
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" >
+
+        <TextView
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/phone" />
+
+        <EditText
+            android:id="@+id/et_phone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+
+    </TableRow>
+    
+    <TableRow
+        android:layout_margin="5dp"
+        android:id="@+id/tableRow3"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp" >
+
+        <TextView
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/call" />
+
+        <EditText
+            android:id="@+id/et_call"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+
+    </TableRow>
+    
+    <TableRow
+        android:layout_margin="5dp"
+        android:id="@+id/tableRow4"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp" >
+
+        <TextView
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/address" />
+
+        <EditText
+            android:id="@+id/et_address"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+
+    </TableRow>
+    <TableRow
+        android:layout_margin="5dp"
+        android:id="@+id/tableRow5"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp" >
+
+        <TextView
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/email" />
+
+        <EditText
+            android:id="@+id/et_email"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_margin="5dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/tableRow6"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/btn_save"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="@string/btn_save" />
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/btn_cancle"
+            android:textSize="16sp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_cancel" />
+
+    </TableRow>
+
+</LinearLayout>
